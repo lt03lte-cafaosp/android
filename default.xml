@@ -574,6 +574,8 @@
   <project path="packages/apps/Contacts" name="lt03lte-cafaosp/platform-packages-apps-Contacts" remote="github" />
   <project path="packages/services/Telephony" name="lt03lte-cafaosp/packages-services-Telephony" remote="github" />
   
+  <project path="packages/apps/cafaospbrowser" name="lt03lte-cafaosp/platform-packages-apps-cafaospbrowser" remote="github" />
+
   <project path="packages/apps/substratum" name="lt03lte-cafaosp/platform-packages-apps-substratum" remote="github" revision="master"/>
   <project path="packages/apps/interfacer" name="substratum/interfacer" remote="github" revision="n-rootless"/>
     
