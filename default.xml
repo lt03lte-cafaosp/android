@@ -591,5 +591,6 @@
   <project path="kernel/samsung/lt03lte" name="lt03lte-cafaosp/kernel_samsung_lt03lte_nougat2" remote="github" revision="caf" />
   <project path="device/samsung/lt03lte" name="lt03lte-cafaosp/device_lt03lte_nougat" remote="github" revision="caf"/>
   <project path="vendor/samsung/lt03lte" name="lt03lte-cafaosp/vendor_samsung_l03lte_nougat" remote="github" revision="caf"/>
-	
+
+  <project path="vendor/cafaosp" name="lt03lte-cafaosp/platform-vendor-cafaosp" remote="github"/>
 </manifest>
