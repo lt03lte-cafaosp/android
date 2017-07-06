@@ -499,54 +499,54 @@
 
 
  <!-- Lineage/CM/ -->
-  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="cm" />
-  <project name="LineageOS/android_device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="cm" />
-  <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="cm" />
-  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="cm" />
-  <project name="LineageOS/android_external_stlport" path="external/stlport" remote="cm" />
-  <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="cm" />
-  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="cm" />
+  <project name="android_hardware_samsung" path="hardware/samsung" remote="cm" />
+  <project name="android_device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="cm" />
+  <project name="android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="cm" />
+  <project name="android_device_qcom_common" path="device/qcom/common" remote="cm" />
+  <project name="android_external_stlport" path="external/stlport" remote="cm" />
+  <project name="android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="cm" />
+  <project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="cm" />
   
-  <project path="hardware/qcom/audio/default" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm"  />
-  <project path="hardware/qcom/audio-caf/msm8974" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-14.1-caf-8974" />
-  <project path="hardware/qcom/bootctrl" name="LineageOS/android_hardware_qcom_bootctrl" groups="pdk" remote="cm"  />
-  <project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom" remote="cm"  />
-  <project path="hardware/qcom/bt-caf" name="LineageOS/android_hardware_qcom_bt" groups="qcom" revision="cm-14.1-caf"  remote="cm" />
-  <project path="hardware/qcom/camera" name="LineageOS/android_hardware_qcom_camera" groups="qcom" remote="cm"  />
-  <project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="cm"  />
-  <project path="hardware/qcom/display-caf/msm8974" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="cm" revision="cm-14.1-caf-8974" />
-  <project path="hardware/qcom/fm" name="LineageOS/android_hardware_qcom_fm" groups="qcom,qcom_fm" remote="cm"  />
-  <project path="hardware/qcom/gps" name="LineageOS/android_hardware_qcom_gps" groups="qcom,qcom_gps" remote="cm"  />
-  <project path="hardware/qcom/keymaster" name="LineageOS/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="cm"  />
-  <project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" groups="qcom" remote="cm"  />
-  <project path="hardware/qcom/media-caf/msm8974" name="LineageOS/android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-14.1-caf-8974" />
-  <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan" remote="cm"  />
-  <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan" revision="cm-14.1-caf" remote="cm" />
-  <project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk" remote="cm"  />
-  <project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" groups="pdk" revision="cm-14.1-caf"  remote="cm" />
-  <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" remote="cm" />
-  <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy" groups="pdk"  remote="cm" />
+  <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm"  />
+  <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-14.1-caf-8974" />
+  <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" groups="pdk" remote="cm"  />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="cm"  />
+  <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" groups="qcom" revision="cm-14.1-caf"  remote="cm" />
+  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom" remote="cm"  />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="cm"  />
+  <project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="cm" revision="cm-14.1-caf-8974" />
+  <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" groups="qcom,qcom_fm" remote="cm"  />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps" remote="cm"  />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="cm"  />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="qcom" remote="cm"  />
+  <project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-14.1-caf-8974" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="cm"  />
+  <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" groups="qcom_wlan" revision="cm-14.1-caf" remote="cm" />
+  <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="cm"  />
+  <project path="hardware/ril-caf" name="android_hardware_ril" groups="pdk" revision="cm-14.1-caf"  remote="cm" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="cm" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk"  remote="cm" />
   
-  <project path="external/htop" name="LineageOS/android_external_htop" remote="cm"  />
-  <project path="external/ffmpeg" name="LineageOS/android_external_ffmpeg" remote="cm"  />
-  <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="cm"  />
-  <project path="external/libphonenumbergoogle" name="LineageOS/android_external_libphonenumbergoogle" remote="cm"  />
-  <project path="external/fuse" name="LineageOS/android_external_fuse" remote="cm"  />
-  <project path="external/exfat" name="LineageOS/android_external_exfat" remote="cm"  />
-  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="cm"  />
-  <project path="external/openssh" name="LineageOS/android_external_openssh" remote="cm"  />
-  <project path="external/rsync" name="LineageOS/android_external_rsync" remote="cm"  />
-  <project path="external/flac" name="LineageOS/android_external_flac" groups="pdk"  remote="cm" />
-  <project path="external/libnfc-nci" name="LineageOS/android_external_libnfc-nci" groups="pdk" remote="cm" />
-  <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" groups="pdk" remote="cm" />
-  <project path="external/tinyalsa" name="LineageOS/android_external_tinyalsa" groups="pdk"  remote="cm" />
-  <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk"  remote="cm" />
-  <project path="external/stagefright-plugins" name="LineageOS/android_external_stagefright-plugins"  remote="cm" />
+  <project path="external/htop" name="android_external_htop" remote="cm"  />
+  <project path="external/ffmpeg" name="android_external_ffmpeg" remote="cm"  />
+  <project path="external/libncurses" name="android_external_libncurses" remote="cm"  />
+  <project path="external/libphonenumbergoogle" name="android_external_libphonenumbergoogle" remote="cm"  />
+  <project path="external/fuse" name="android_external_fuse" remote="cm"  />
+  <project path="external/exfat" name="android_external_exfat" remote="cm"  />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="cm"  />
+  <project path="external/openssh" name="android_external_openssh" remote="cm"  />
+  <project path="external/rsync" name="android_external_rsync" remote="cm"  />
+  <project path="external/flac" name="android_external_flac" groups="pdk"  remote="cm" />
+  <project path="external/libnfc-nci" name="android_external_libnfc-nci" groups="pdk" remote="cm" />
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" groups="pdk" remote="cm" />
+  <project path="external/tinyalsa" name="android_external_tinyalsa" groups="pdk"  remote="cm" />
+  <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk"  remote="cm" />
+  <project path="external/stagefright-plugins" name="android_external_stagefright-plugins"  remote="cm" />
   
-  <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="cm"  />
-  <project path="external/connectivity" name="LineageOS/android_external_connectivity" remote="cm"  />
-  <project path="external/gson" name="LineageOS/android_external_gson" remote="cm"  />
-  <project path="external/protobuf-c" name="LineageOS/android_external_protobuf-c" remote="cm"  />
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="cm"  />
+  <project path="external/connectivity" name="android_external_connectivity" remote="cm"  />
+  <project path="external/gson" name="android_external_gson" remote="cm"  />
+  <project path="external/protobuf-c" name="android_external_protobuf-c" remote="cm"  />
 
 	<!-- Our sources -->
   <project path="build" name="lt03lte-cafaosp/platform-build" remote="github" >
