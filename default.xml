@@ -16,7 +16,7 @@
   <remote  name="github-ssh"
            fetch="ssh://git@github.com"/>
 
-  <default revision="refs/tags/LA.UM.5.8.r1-02600-8x98.0"
+  <default revision="refs/tags/LA.UM.5.8.r1-02800-8x98.0"
            remote="caf"
            sync-j="4"
            sync-c="true"/>
@@ -39,7 +39,6 @@
   <project groups="device,pdk" name="device/google/accessory/demokit" />
   <project groups="device,fugu,broadcom_pdk,generic_fs,pdk" name="device/google/atv" />
   <project groups="device,marlin" name="device/google/contexthub" />
-  <project name="device/qcom/sepolicy" />
   <project groups="pdk" name="device/sample" />
   <project name="kernel/msm-4.4" />
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp" />
@@ -242,7 +241,6 @@
   <project groups="pdk" name="platform/external/noto-fonts" path="external/noto-fonts"/>
   <project groups="pdk" name="platform/external/oauth" path="external/oauth"/>
   <project groups="pdk" name="platform/external/objenesis" path="external/objenesis"/>
-  <project groups="pdk" name="platform/external/okhttp" path="external/okhttp"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/external/opencv" path="external/opencv"/>
   <project groups="pdk" name="platform/external/opencv3" path="external/opencv3"/>
   <project groups="pdk" name="platform/external/owasp/sanitizer" path="external/owasp/sanitizer"/>
@@ -453,7 +451,6 @@
   <project groups="pdk" name="platform/system/gatekeeper" path="system/gatekeeper" />
   <project groups="pdk" name="platform/system/keymaster" path="system/keymaster" />
   <project name="platform/system/nativepower" path="system/nativepower" />
-  <project groups="pdk" name="platform/system/netd" path="system/netd" />
   <project name="platform/system/nvram" path="system/nvram" />
   <project name="platform/system/qcom" path="vendor/qcom/opensource/softap" />
   <project groups="pdk" name="platform/system/security" path="system/security" />
@@ -546,6 +543,8 @@
   <project path="external/connectivity" name="android_external_connectivity" remote="cm"  />
   <project path="external/gson" name="android_external_gson" remote="cm"  />
   <project path="external/protobuf-c" name="android_external_protobuf-c" remote="cm"  />
+  
+  <project path="external/okhttp" name="android_external_okhttp" remote="cm" />
 
 	<!-- Our sources -->
   <project path="build" name="lt03lte-cafaosp/platform-build" remote="github" >
@@ -582,12 +581,14 @@
   <project path="system/bt" name="lt03lte-cafaosp/platform-system-bt" remote="github" />
   <project path="system/extras" name="lt03lte-cafaosp/platform-system-extras" remote="github" />
   <project path="system/media" name="lt03lte-cafaosp/platform-system-media" remote="github" />
+  <project path="system/netd" name="platform/system/netd" remote="github" />
   <project path="system/sepolicy" name="lt03lte-cafaosp/platform-system-sepolicy" remote="github" />
   <project path="system/vold" name="lt03lte-cafaosp/platform-system-vold" remote="github" />
   
   <project path="kernel/samsung/lt03lte" name="lt03lte-cafaosp/kernel_samsung_lt03lte_nougat2" remote="github" revision="caf" />
   <project path="device/samsung/lt03lte" name="lt03lte-cafaosp/device_lt03lte_nougat" remote="github" revision="caf"/>
   <project path="vendor/samsung/lt03lte" name="lt03lte-cafaosp/vendor_samsung_l03lte_nougat" remote="github" revision="caf"/>
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="github"/>
 
   <project path="vendor/cafaosp" name="lt03lte-cafaosp/platform-vendor-cafaosp" remote="github"/>
 </manifest>
