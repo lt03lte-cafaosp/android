@@ -581,14 +581,14 @@
   <project path="system/bt" name="lt03lte-cafaosp/platform-system-bt" remote="github" />
   <project path="system/extras" name="lt03lte-cafaosp/platform-system-extras" remote="github" />
   <project path="system/media" name="lt03lte-cafaosp/platform-system-media" remote="github" />
-  <project path="system/netd" name="lt03lte-cafaosp/system/netd" remote="github" />
+  <project path="system/netd" name="lt03lte-cafaosp/platform_system_netd" remote="github" />
   <project path="system/sepolicy" name="lt03lte-cafaosp/platform-system-sepolicy" remote="github" />
   <project path="system/vold" name="lt03lte-cafaosp/platform-system-vold" remote="github" />
   
   <project path="kernel/samsung/lt03lte" name="davidmueller13/android_kernel_samsung_msm8974" remote="github" revision="cm-14.1" />
   <project path="device/samsung/lt03lte" name="lt03lte-cafaosp/device_lt03lte_nougat" remote="github" revision="caf"/>
   <project path="vendor/samsung/lt03lte" name="lt03lte-cafaosp/vendor_samsung_l03lte_nougat" remote="github" revision="caf"/>
-  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="github"/>
+  <project path="device/qcom/sepolicy" name="lt03lte-cafaosp/device_qcom_sepolicy" remote="github"/>
 
   <project path="vendor/cafaosp" name="lt03lte-cafaosp/platform-vendor-cafaosp" remote="github"/>
 </manifest>
